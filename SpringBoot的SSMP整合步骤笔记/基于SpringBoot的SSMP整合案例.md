@@ -55,7 +55,7 @@ SSM框架开发目录结构
 10. 写控制层代码
 11. 测试控制层代码
 
-
+![img](https://raw.githubusercontent.com/tudouPotatoo/SpringBoot-SSMP-Notes-and-Demo/main/SpringBoot%E7%9A%84SSMP%E6%95%B4%E5%90%88%E6%AD%A5%E9%AA%A4%E7%AC%94%E8%AE%B0/%E5%9F%BA%E4%BA%8ESpringBoot%E7%9A%84SSMP%E6%95%B4%E5%90%88%E6%A1%88%E4%BE%8B.assets/%E5%9B%BE1.png)
 
 ## 实战
 
@@ -63,25 +63,27 @@ SSM框架开发目录结构
 
 新建一个module
 
-![图1](C:/Users/tudou/Documents/Java%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/SpringBoot%E5%AD%A6%E4%B9%A0/%E6%80%BB%E7%BB%93%E7%AC%94%E8%AE%B0/%E5%9F%BA%E4%BA%8ESpringBoot%E7%9A%84SSMP%E6%95%B4%E5%90%88%E6%A1%88%E4%BE%8B.assets/%E5%9B%BE1.png)
+![图1](https://raw.githubusercontent.com/tudouPotatoo/SpringBoot-SSMP-Notes-and-Demo/main/SpringBoot%E7%9A%84SSMP%E6%95%B4%E5%90%88%E6%AD%A5%E9%AA%A4%E7%AC%94%E8%AE%B0/%E5%9F%BA%E4%BA%8ESpringBoot%E7%9A%84SSMP%E6%95%B4%E5%90%88%E6%A1%88%E4%BE%8B.assets/%E5%9B%BE1.png)
 
 勾选需要的依赖
 
-![图2](C:/Users/tudou/Documents/Java%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/SpringBoot%E5%AD%A6%E4%B9%A0/%E6%80%BB%E7%BB%93%E7%AC%94%E8%AE%B0/%E5%9F%BA%E4%BA%8ESpringBoot%E7%9A%84SSMP%E6%95%B4%E5%90%88%E6%A1%88%E4%BE%8B.assets/%E5%9B%BE2.png)
+![图2](https://github.com/tudouPotatoo/SpringBoot-SSMP-Notes-and-Demo/blob/main/SpringBoot%E7%9A%84SSMP%E6%95%B4%E5%90%88%E6%AD%A5%E9%AA%A4%E7%AC%94%E8%AE%B0/%E5%9F%BA%E4%BA%8ESpringBoot%E7%9A%84SSMP%E6%95%B4%E5%90%88%E6%A1%88%E4%BE%8B.assets/%E5%9B%BE2.png?raw=true)
 
 如果这个地方没有变蓝，手动将项目设为maven项目
 
-![图3](C:/Users/tudou/Documents/Java%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/SpringBoot%E5%AD%A6%E4%B9%A0/%E6%80%BB%E7%BB%93%E7%AC%94%E8%AE%B0/%E5%9F%BA%E4%BA%8ESpringBoot%E7%9A%84SSMP%E6%95%B4%E5%90%88%E6%A1%88%E4%BE%8B.assets/%E5%9B%BE3.png)
+![图3](https://github.com/tudouPotatoo/SpringBoot-SSMP-Notes-and-Demo/blob/main/SpringBoot%E7%9A%84SSMP%E6%95%B4%E5%90%88%E6%AD%A5%E9%AA%A4%E7%AC%94%E8%AE%B0/%E5%9F%BA%E4%BA%8ESpringBoot%E7%9A%84SSMP%E6%95%B4%E5%90%88%E6%A1%88%E4%BE%8B.assets/%E5%9B%BE3.png?raw=true)
 
-![图4](C:/Users/tudou/Documents/Java%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/SpringBoot%E5%AD%A6%E4%B9%A0/%E6%80%BB%E7%BB%93%E7%AC%94%E8%AE%B0/%E5%9F%BA%E4%BA%8ESpringBoot%E7%9A%84SSMP%E6%95%B4%E5%90%88%E6%A1%88%E4%BE%8B.assets/%E5%9B%BE4.png)
 
-可以修改引导类的名字
 
-![图5](C:/Users/tudou/Documents/Java%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/SpringBoot%E5%AD%A6%E4%B9%A0/%E6%80%BB%E7%BB%93%E7%AC%94%E8%AE%B0/%E5%9F%BA%E4%BA%8ESpringBoot%E7%9A%84SSMP%E6%95%B4%E5%90%88%E6%A1%88%E4%BE%8B.assets/%E5%9B%BE5.png)
+![图4](https://github.com/tudouPotatoo/SpringBoot-SSMP-Notes-and-Demo/blob/main/SpringBoot%E7%9A%84SSMP%E6%95%B4%E5%90%88%E6%AD%A5%E9%AA%A4%E7%AC%94%E8%AE%B0/%E5%9F%BA%E4%BA%8ESpringBoot%E7%9A%84SSMP%E6%95%B4%E5%90%88%E6%A1%88%E4%BE%8B.assets/%E5%9B%BE4.png?raw=true)
+
+可以修改引导类的名字，修改为Application更加简洁。（默认和module名相同）
+
+![图5](https://github.com/tudouPotatoo/SpringBoot-SSMP-Notes-and-Demo/blob/main/SpringBoot%E7%9A%84SSMP%E6%95%B4%E5%90%88%E6%AD%A5%E9%AA%A4%E7%AC%94%E8%AE%B0/%E5%9F%BA%E4%BA%8ESpringBoot%E7%9A%84SSMP%E6%95%B4%E5%90%88%E6%A1%88%E4%BE%8B.assets/%E5%9B%BE5.png?raw=true)
 
 application.properties文件名修改为application.yml。【因为现在yaml格式使用频率更高】
 
-![图6](C:/Users/tudou/Documents/Java%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/SpringBoot%E5%AD%A6%E4%B9%A0/%E6%80%BB%E7%BB%93%E7%AC%94%E8%AE%B0/%E5%9F%BA%E4%BA%8ESpringBoot%E7%9A%84SSMP%E6%95%B4%E5%90%88%E6%A1%88%E4%BE%8B.assets/%E5%9B%BE6.png)
+![图6](https://github.com/tudouPotatoo/SpringBoot-SSMP-Notes-and-Demo/blob/main/SpringBoot%E7%9A%84SSMP%E6%95%B4%E5%90%88%E6%AD%A5%E9%AA%A4%E7%AC%94%E8%AE%B0/%E5%9F%BA%E4%BA%8ESpringBoot%E7%9A%84SSMP%E6%95%B4%E5%90%88%E6%A1%88%E4%BE%8B.assets/%E5%9B%BE6.png?raw=true)
 
 
 
